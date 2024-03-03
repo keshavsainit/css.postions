@@ -1,0 +1,23 @@
+
+Q. Explain the difference between Absolute and Relative positioning.
+
+
+solution.
+
+Relative Position:
+
+1. Reference Point**: Relative position sets the element's position relative to its default position in the document flow.
+   
+2. Document Flow**: The element still occupies space in the document flow as per its original position. Other elements are positioned as if the relative-positioned element were still in its original position.
+
+3. Offset Properties**: You can adjust the position of a relatively positioned element using the offset properties like top, right, bottom, and left. These properties move the element relative to its original position.
+
+Absolute Position:
+
+1. Reference Point**: Absolute position sets the element's position relative to its closest positioned ancestor or the containing block.
+
+2. Out of Flow**: The element is taken out of the normal document flow, so it doesn't affect the position of other elements. It can overlap with other elements.
+
+3. No Space Occupied**: Absolute positioned elements don't occupy space in the document flow. Other elements are positioned as if the absolute positioned element doesn't exist.
+
+In summary, relative positioning adjusts an element's position relative to its default position without taking it out of the document flow, while absolute positioning takes an element out of the document flow and positions it relative to its closest positioned ancestor or the containing block.

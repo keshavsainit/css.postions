@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <style>
+   
+   .box-items{
+     
+    background-color: rgb(21, 240, 240);
+    width: 150px;
+    height: 100px;
+    border: solid;
+    margin: 1px;
+    text-align: center;
+  
+   }
+
+   .box1{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    z-index: -1;
+
+   }   
+
+   .box2{
+    position: absolute;
+    left: 120px;
+    top: 150;
+   }
+
+   .box3{
+    position: absolute;
+    left: 300;
+    top: 150px;
+   }
+
+   .box4{
+    position: absolute;
+    top :280;
+    left: 120;
+    z-index: 2;
+   }
+
+   .box5{
+    position: absolute;
+    top: 280;
+    left: 300px;
+   }
+
+ </style>
+
+
+
+ <div class="box-king">
+
+  <div class="box-items box1">1</div>
+  <div class="box-items box2">2</div>
+  <div class="box-items box3">3</div>
+  <div class="box-items box4">4</div>
+  <div class="box-items box5">5</div>
+
+ </div>
+
+
+    
+</body>
+</html>
